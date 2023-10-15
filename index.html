@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator project</title>
+  <style>
+    h1 {
+      color: white;
+      background-color: black;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+    }
+
+    .boxed {
+      background-color: #cfc;
+    }
+
+    #result {
+      background-color: #cfc;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Swag Calculator</h1>
+  <h2><em>Use the dropdown to choose function</em></h2>
+
+  <form>
+    Value 1: <input type="text" id="value1">
+    Value 2: <input type="text" id="value2" </form>
+    <select id="operator">
+      <option value="add">Add </option>
+      <option value="min">Minus </option>
+      <option value="div">Divide </option>
+      <option value="mul">Multiply </option>
+    </select>
+    <button type="button" onclick="calc()">Calculate</button>
+    <br></br>
+    <div id="result"></div>
+    <div class="boxed">
+      Your answer will display on the line above
+    </div>
+</body>
+<script src="test.js"></script>
+
+</html>
